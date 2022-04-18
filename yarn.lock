@@ -1922,6 +1922,25 @@
     yn "^4.0.0"
     yup "^0.32.9"
 
+"@backstage/plugin-rollbar@^0.4.3":
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/@backstage/plugin-rollbar/-/plugin-rollbar-0.4.3.tgz#435f9d3532572ef57819a3c039a2af8c1baa26ca"
+  integrity sha512-GuURP/we/zZxaX/n9U/HWO31NNWFbohFCBe4HePoQOBCe/P9iM7IGgPYlO/9nYlxvQ6PnvTk3R2nrv+pFF65Sw==
+  dependencies:
+    "@backstage/catalog-model" "^1.0.0"
+    "@backstage/core-components" "^0.9.2"
+    "@backstage/core-plugin-api" "^1.0.0"
+    "@backstage/plugin-catalog-react" "^1.0.0"
+    "@backstage/theme" "^0.2.15"
+    "@material-ui/core" "^4.12.2"
+    "@material-ui/icons" "^4.9.1"
+    "@material-ui/lab" "4.0.0-alpha.57"
+    lodash "^4.17.21"
+    react-router "6.0.0-beta.0"
+    react-router-dom "6.0.0-beta.0"
+    react-sparklines "^1.7.0"
+    react-use "^17.2.4"
+
 "@backstage/plugin-scaffolder-backend@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@backstage/plugin-scaffolder-backend/-/plugin-scaffolder-backend-1.0.0.tgz#1a6d506bb584d2cf2d1fa2f14d9d3d282341d87f"
@@ -5062,7 +5081,7 @@
   resolved "https://registry.yarnpkg.com/@types/range-parser/-/range-parser-1.2.4.tgz#cd667bcfdd025213aafb7ca5915a932590acdcdc"
   integrity sha512-EEhsLsD6UsDM1yFhAvy0Cjr6VwmpMWqFBCb9w07wVugF7w9nfajxLuVmngTIpgS6svCnm6Vaw+MZhoDCKnOfsw==
 
-"@types/react-dom@*", "@types/react-dom@<18.0.0", "@types/react-dom@^17":
+"@types/react-dom@*", "@types/react-dom@<18.0.0":
   version "17.0.15"
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-17.0.15.tgz#f2c8efde11521a4b7991e076cb9c70ba3bb0d156"
   integrity sha512-Tr9VU9DvNoHDWlmecmcsE5ZZiUkYx+nKBzum4Oxe1K0yJVyBlfbq7H3eXjxXqJczBKqPGq3EgfTru4MgKb9+Yw==
@@ -5728,7 +5747,7 @@ anymatch@^3.0.3, anymatch@~3.1.2:
     picomatch "^2.0.4"
 
 "app@link:packages/app":
-  version "0.2.1"
+  version "0.2.2"
   dependencies:
     "@backstage/app-defaults" "^1.0.0"
     "@backstage/catalog-model" "^1.0.0"
