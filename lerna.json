@@ -3,6 +3,11 @@
     "packages/*",
     "plugins/*"
   ],
+  "command": {
+    "publish": {
+      "registry": "https://artifactory.gcp.shipttech.com/artifactory/api/npm/shipt-npm"
+    }
+  },
   "npmClient": "yarn",
   "useWorkspaces": true,
   "version": "0.2.1"
